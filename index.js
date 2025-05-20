@@ -1,10 +1,6 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-const App = () => {
-  return <h1>Hello, THE JIMS!</h1>;
-};
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+document.addEventListener("DOMContentLoaded", () => {
+  const message = document.getElementById("message");
+  if (message) {
+    message.textContent = "Welcome to The Star Project!";
+  }
+});
