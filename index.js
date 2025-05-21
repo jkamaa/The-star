@@ -1,6 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const message = document.getElementById("message");
-  if (message) {
-    message.textContent = "Welcome to The Star Project!";
-  }
-});
+
+function greet() {
+    alert("Hello from The Star Project!");
+}
